@@ -1,0 +1,22 @@
+[
+  {"id": "wolf", "name": "Wolf", "tile": 16, "replace_tile": 5, "image": "photo/enemys/wolf.png",
+   "hp": 6, "shield": 0, "attack": 2, "speed": 3,
+   "ability": {"type": "low_hp_rage", "hp_threshold": 5, "bonus": 2},
+   "description": "Вовк отримує 2 додаткової атаки, якщо у гравця 5 або менше здоров'я"},
+  {"id": "bear", "name": "Bear", "tile": 17, "replace_tile": 5, "image": "photo/enemys/bear.png",
+   "hp": 5, "shield": 4, "attack": 3, "speed": 1,
+   "ability": {"type": "armor_rage", "bonus": 3},
+   "description": "Ведмідь отримує 3 додаткової атаки, поки гравець має броню"},
+  {"id": "bat", "name": "Bat", "tile": 20, "replace_tile": 1, "image": "photo/enemys/beat.png",
+   "hp": 6, "shield": 0, "attack": 2, "speed": 4,
+   "ability": {"type": "regeneration", "every": 2, "amount": 1},
+   "description": "Кажан відновлює 1 здоров'я кожен другий удар"},
+  {"id": "spider", "name": "Spider", "tile": 21, "replace_tile": 1, "image": "photo/enemys/spider.png",
+   "hp": 4, "shield": 0, "attack": 1, "speed": 4,
+   "ability": {"type": "speed_strike", "bonus": 2},
+   "description": "Якщо Павук швидший за гравця, він завдає 3 одиниці шкоди"},
+  {"id": "knight", "name": "Knight", "tile": 22, "replace_tile": 5, "image": "photo/enemys/knight.png",
+   "hp": 2, "shield": 10, "attack": 6, "speed": 0,
+   "ability": null,
+   "description": "Лицар завдає ударів по черзі, ворог відповідає нормально"}
+]

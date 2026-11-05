@@ -1,0 +1,23 @@
+[
+  {"id": "stick", "image": "photo/items/stick.png", "border": "photo/slots/weapon_slot.png",
+   "type": "weapon", "attack": 1, "start": true, "chest": false},
+  {"id": "iron_sword", "image": "photo/items/iron_sword.png", "border": "photo/slots/weapon_slot.png",
+   "type": "weapon", "attack": 2, "speed": -2},
+  {"id": "spearshield", "image": "photo/items/Spearshield.png", "border": "photo/slots/weapon_slot.png",
+   "type": "weapon", "attack": 1, "shield": 6},
+  {"id": "sword_of_hero", "image": "photo/items/sword_of_hero.png", "border": "photo/slots/weapon_slot.png",
+   "type": "weapon", "attack": 3},
+  {"id": "staff", "image": "photo/items/staff.png", "border": "photo/slots/weapon_slot.png",
+   "type": "weapon", "attack": 1, "speed": 1, "shield": 1},
+  {"id": "heart_drinker", "image": "photo/items/Heart_Drinker.png", "border": "",
+   "type": "weapon", "attack": 1, "lifesteal": 1,
+   "description": "При ударі: Відновлює 1 очко здоров'я"},
+  {"id": "shield_of_hero", "image": "photo/items/shield_of_hero.png", "border": "",
+   "type": "item", "shield": 5},
+  {"id": "boots_of_hero", "image": "photo/items/boots_of_hero.png", "border": "",
+   "type": "item", "speed": 3},
+  {"id": "elderwood", "image": "photo/items/elder_wood.png", "border": "",
+   "type": "item", "attack": 1, "speed": 1, "shield": 1},
+  {"id": "glove", "image": "photo/items/glove.png", "border": "",
+   "type": "item", "hp": 5, "speed": 2}
+]
